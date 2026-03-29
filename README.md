@@ -1,1 +1,1 @@
-# IDMX 225 Midterm
+# IDMX 225 Leo Hackett Midterm
