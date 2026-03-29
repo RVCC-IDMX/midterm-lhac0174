@@ -33,8 +33,7 @@ header img{
     text-align:center;
     padding:10px;
     margin: 5em;
-    margin-left: 40em;
-    margin-right: 40em;
+    text-align:center;
 }
 
 /* Hero Section */
@@ -45,6 +44,7 @@ header img{
     background-image:-moz-repeating-radial-gradient(#C6B597, #292B2E);
     box-shadow:8px 8px 8px rgba(0,0,0,.5);
     border: solid #73B4FA;
+    text-align:center;
 }
 
 /* About Us Section */
@@ -91,9 +91,10 @@ header img{
 
 /* Mobile/Tablet */
 @media screen and (min-width: 50em){
+
     figure{
-            display: grid;
-            grid-template-columns: 1fr 2fr;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
     }
 
     figcaption{
@@ -137,5 +138,10 @@ header img{
 
     figure img{
         width: 25%;
+    }
+
+    #Hero, footer{
+        margin-left: 40em;
+        margin-right: 40em;
     }
 }
