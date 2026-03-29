@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header{
-    border: 5px solid #D9B16C;
+    border: 5px solid #292B2E;
     background-color: #C6B597;
     text-align: center;
 
@@ -23,11 +23,12 @@ header img{
     width: 10em;
     height: 10em;
     box-shadow:8px 8px 8px rgba(0,0,0,.5);
+    border: solid #73B4FA;
 }
 
 #Hero, footer{
     color: #292B2E;
-    border: 5px solid #D9B16C;
+    border: 5px solid #292B2E;
     background-color: #C6B597;
     text-align:center;
     padding:10px;
@@ -43,11 +44,12 @@ header img{
     padding:.15em;
     background-image:-moz-repeating-radial-gradient(#C6B597, #292B2E);
     box-shadow:8px 8px 8px rgba(0,0,0,.5);
+    border: solid #73B4FA;
 }
 
 /* About Us Section */
 #AboutUs {
-    border: 5px solid #D9B16C;
+    border: 5px solid #292B2E;
     background-color: #C6B597;
     text-align:center;
     padding: 1em;
@@ -57,7 +59,7 @@ header img{
 /* Services Section */
 
 #Services {
-    border: 5px solid #D9B16C;
+    border: 5px solid #292B2E;
     background-color: #C6B597;
     text-align:center;
     padding: 1em;
@@ -69,15 +71,71 @@ header img{
     box-shadow:8px 8px 8px rgba(0,0,0,.5);
     max-width: 75%;
     max-height: 75%;
+    background-color:#C6B597;
+    border: 5px solid #73B4FA;
 }
 
 /* Testimonials Section */
 
 #Testimonials{
-    border: 5px solid #D9B16C;
+    border: 5px solid #292B2E;
     background-color: #C6B597;
     text-align:center;
     padding: 1em;
     margin: 5em;
 }
 
+#Testimonials h3{
+    font-size: 2rem;
+}
+
+/* Mobile/Tablet */
+@media screen and (min-width: 50em){
+    figure{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+    }
+
+    figcaption{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    figure img{
+        width: 50%;
+    }
+
+    article{
+        background-image:-moz-repeating-radial-gradient(#D9B16C, #C6B597);
+        border: 5px solid #292B2E;
+        margin: 1em;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 100em){
+    #Testimonials {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #Testimonials h2{
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+
+    figure img{
+        width: 25%;
+    }
+}
