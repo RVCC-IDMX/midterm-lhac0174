@@ -1,0 +1,83 @@
+body{
+    font-family: Montserrat;
+
+    background-color: #8AB9EB;
+    color: #292B2E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Barlow;
+    font-size:40pt;
+    color: #292B2E;
+    text-align:center;
+}
+
+header{
+    border: 5px solid #D9B16C;
+    background-color: #C6B597;
+    text-align: center;
+
+}
+
+header img{
+    width: 10em;
+    height: 10em;
+    box-shadow:8px 8px 8px rgba(0,0,0,.5);
+}
+
+#Hero, footer{
+    color: #292B2E;
+    border: 5px solid #D9B16C;
+    background-color: #C6B597;
+    text-align:center;
+    padding:10px;
+    margin: 5em;
+    margin-left: 40em;
+    margin-right: 40em;
+}
+
+/* Hero Section */
+
+#Hero img{
+    width:15em;
+    padding:.15em;
+    background-image:-moz-repeating-radial-gradient(#C6B597, #292B2E);
+    box-shadow:8px 8px 8px rgba(0,0,0,.5);
+}
+
+/* About Us Section */
+#AboutUs {
+    border: 5px solid #D9B16C;
+    background-color: #C6B597;
+    text-align:center;
+    padding: 1em;
+    margin: 5em;
+}
+
+/* Services Section */
+
+#Services {
+    border: 5px solid #D9B16C;
+    background-color: #C6B597;
+    text-align:center;
+    padding: 1em;
+    margin: 2em;
+    margin-bottom: 3rem;
+}
+
+#Services img{
+    box-shadow:8px 8px 8px rgba(0,0,0,.5);
+    max-width: 75%;
+    max-height: 75%;
+}
+
+/* Testimonials Section */
+
+#Testimonials{
+    border: 5px solid #D9B16C;
+    background-color: #C6B597;
+    text-align:center;
+    padding: 1em;
+    margin: 5em;
+}
+
